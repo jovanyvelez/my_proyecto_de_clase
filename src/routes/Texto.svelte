@@ -4,6 +4,8 @@
     a quien tanto queremos y agradecemos por todo lo que nos han enseñado"
 </p>
 
+<h1>Nos vemos luego</h1>
+
 <style>
     p {
         color: green;

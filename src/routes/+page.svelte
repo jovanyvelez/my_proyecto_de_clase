@@ -22,6 +22,11 @@
     <Texto />
 {/if}
 
+<form style="margin: 20px auto">
+    <label for="nombre">Nombre de usuario:</label>
+    <input type="text" id="nombre" bind:value={nombre} />
+</form>
+
 <style>
     h1 {
         color: blue;
