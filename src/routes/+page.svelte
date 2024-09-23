@@ -2,7 +2,6 @@
     import Texto from "./Texto.svelte";
     let nombre = $state("Futuros profesionales de Colombia")
     let mostrarTexto = $state(false);
-    let miH2: HTMLHeadingElement | null;
 </script>
 
 <h1>
@@ -14,7 +13,7 @@
     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt adipisci natus delectus minus in, nemo rerum exercitationem facilis magni esse tempore explicabo. Nostrum, consectetur reiciendis! Deleniti minus facere voluptatem laboriosam.
 </p>
 
-<h2 bind:this={miH2}>Atentamente: {nombre}</h2>
+<h2>Atentamente: {nombre}</h2>
 
 <button onclick={()=>mostrarTexto = !mostrarTexto}>Mostrar componente texto</button>
 
@@ -28,6 +27,11 @@
 </form>
 
 <a href="/motivacion">Ver nuestro mensaje de motivación</a>
+
+<div>
+    <a href="/estudiantes_del_curso">Ver los estudiantes de 11</a>
+</div>
+
 
 <style>
     h1 {
