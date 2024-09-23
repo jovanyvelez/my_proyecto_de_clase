@@ -27,6 +27,8 @@
     <input type="text" id="nombre" bind:value={nombre} />
 </form>
 
+<a href="/motivacion">Ver nuestro mensaje de motivación</a>
+
 <style>
     h1 {
         color: blue;
